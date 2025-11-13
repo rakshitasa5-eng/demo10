@@ -1,5 +1,5 @@
-a = input("enter a number")
-b = input("enter a number")
+\a = int(input("enter a number"))
+b = int(input("enter a number"))
 if a % 2 == 0 and b % 2 == 0:
     print("Both numbers are even.")
 elif a % 2 != 0 and b % 2 != 0:
